@@ -1,0 +1,1096 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="GlassfishWithPayara:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fd91cfbb-6cd1-428e-ac5f-cd9820c2f50f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/CartrackerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/CartrackerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE-Semester-6" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE-Semester-6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Auth/AuthenticationUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Filter/AuthenticationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/Cartcontroller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/DiscountCodeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ItemController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/PaymentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/QuizController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Cart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/DiscountCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Payment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Quiz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interceptor/UserInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/CartRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/DiscountCodeRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/ItemRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/PaymentRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/QuizRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/UserRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/AuthService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/CartService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/DiscountCodeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/ItemService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/JWTService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/PaymentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/QuizService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/java/controller/CartcontrollerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/java/controller/DiscountCodeControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/java/controller/ItemControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/java/controller/PaymentControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/java/controller/QuizControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/java/controller/UserControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/GlassfishWithPayara.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/GlassfishWithPayara.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/GlassfishWithPayara/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/GlassfishWithPayara/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JavaEE-Semester-6" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>group</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\Users\C\IdeaProjects\JavaEE-Semester-6\src</dir>
+      <dir>C:\Users\C\IdeaProjects\JavaEE-Semester-6</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/repository/DiscountCodeRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/DiscountCode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/BaseService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AuthenticationFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Auth/AuthenticationUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/Auth/AuthenticationUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/Auth/UserEJB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/Auth/Group.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Filter/CorsFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/sendEmail.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/GoogleMail.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/AuthController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repository/UserRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/JWTService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/AuthService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/Quiz.java" />
+        <option value="$PROJECT_DIR$/src/main/test/java/controller/ItemControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Auth/EmailValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Auth/UserEJB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Auth/Group.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/Link.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/Message.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/chat/MessageEncoder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/chat/Message.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/chat/MessageDecoder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Filter/AuthenticationFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/ChatController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/ItemController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/ItemService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/OwnerCredentials.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/Item.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repository/ItemRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/CartrackerService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gateway/IMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gateway/MessageSenderGateway.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gateway/MiddlewareAppGateway.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gateway/CartrackerAppGateway.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/CartrackerController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/Movement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/Cartracker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/Vehicle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repository/CartrackerRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/VehicleController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/VehicleService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repository/VehicleRepo.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="GlassfishWithPayara Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="GlassfishWithPayara Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="951" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PoliceSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PoliceSystem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PoliceSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PoliceSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PoliceSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PoliceSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PoliceSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PoliceSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PoliceSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PoliceSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PoliceSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PoliceSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PoliceSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PoliceSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PoliceSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PoliceSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PoliceSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PoliceSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PoliceSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PoliceSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PoliceSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PoliceSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PoliceSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PoliceSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555413019779" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="dynamic.classpath" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.41322315" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="controller" />
+      <recent name="Just2Try" />
+      <recent name="domain" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\C\IdeaProjects\JavaEE-Semester-6\src\main\test\java\controller" />
+      <recent name="C:\Users\C\IdeaProjects\JavaEE-Semester-6\src" />
+      <recent name="C:\Users\C\IdeaProjects\JavaEE-Semester-6\src\main\test\resources" />
+      <recent name="C:\Users\C\IdeaProjects\JavaEE-Semester-6\src\main\test\java\domain" />
+      <recent name="C:\Users\C\IdeaProjects\JavaEE-Semester-6\src\main\resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\C\IdeaProjects\PoliceSystem\src\main\java" />
+      <recent name="C:\Users\C\IdeaProjects\JavaEE-Semester-6\src\main\java\Auth" />
+      <recent name="C:\Users\C\IdeaProjects\JavaEE-Semester-6\src\main\java\domain" />
+      <recent name="C:\Users\C\IdeaProjects\JavaEE-Semester-6\src\main\resources\image" />
+      <recent name="C:\Users\C\IdeaProjects\JavaEE-Semester-6\src\main\test\java\domain" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="gateway" />
+      <recent name="service" />
+      <recent name="controller" />
+      <recent name="domain" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="repository" />
+      <recent name="service" />
+      <recent name="domain" />
+      <recent name="Model.Logic" />
+      <recent name="Facade" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="GlassFish 5.184.02" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 5.184.02" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="GlassfishWithPayara:war">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="DOMAIN" value="domain1" />
+        <option name="PRESERVE" value="false" />
+        <option name="COMPATIBILITY" value="false" />
+        <option name="VIRTUAL_SERVER" />
+        <option name="USERNAME" value="admin" />
+        <option name="PASSWORD" value="" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="GlassFish" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="9009" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="GlassfishWithPayara:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 5.184.02" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/GlassfishWithPayara/" />
+      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="GlassfishWithPayara:war">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="DOMAIN" value="domain1" />
+        <option name="PRESERVE" value="false" />
+        <option name="COMPATIBILITY" value="false" />
+        <option name="VIRTUAL_SERVER" />
+        <option name="USERNAME" value="admin" />
+        <option name="PASSWORD" value="" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="GlassFish" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="9009" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="GlassfishWithPayara:war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd91cfbb-6cd1-428e-ac5f-cd9820c2f50f" name="Default Changelist" comment="" />
+      <created>1549933554276</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549933554276</updated>
+      <workItem from="1549933557194" duration="4678000" />
+      <workItem from="1549971922314" duration="2101000" />
+      <workItem from="1550011093461" duration="1817000" />
+      <workItem from="1550046541041" duration="2037000" />
+      <workItem from="1550048754622" duration="5047000" />
+      <workItem from="1550100841443" duration="1991000" />
+      <workItem from="1550138964916" duration="10841000" />
+      <workItem from="1550369583456" duration="598000" />
+      <workItem from="1550476005903" duration="5655000" />
+      <workItem from="1550609136957" duration="4747000" />
+      <workItem from="1550656719782" duration="4233000" />
+      <workItem from="1550687270520" duration="1784000" />
+      <workItem from="1550704425404" duration="388000" />
+      <workItem from="1550791612368" duration="1494000" />
+      <workItem from="1550968585110" duration="119000" />
+      <workItem from="1550972852975" duration="1101000" />
+      <workItem from="1551080457256" duration="13359000" />
+      <workItem from="1551176952246" duration="8612000" />
+      <workItem from="1551253769352" duration="18767000" />
+      <workItem from="1551276037771" duration="227000" />
+      <workItem from="1551276435610" duration="1046000" />
+      <workItem from="1551697468656" duration="3141000" />
+      <workItem from="1551707349258" duration="642000" />
+      <workItem from="1551729318723" duration="3408000" />
+      <workItem from="1551783814615" duration="9108000" />
+      <workItem from="1551809538986" duration="1517000" />
+      <workItem from="1551825816148" duration="1345000" />
+      <workItem from="1551876643381" duration="4255000" />
+      <workItem from="1551940999340" duration="2162000" />
+      <workItem from="1551991257202" duration="14135000" />
+      <workItem from="1552041239261" duration="9143000" />
+      <workItem from="1552093176550" duration="2042000" />
+      <workItem from="1552252193240" duration="7670000" />
+      <workItem from="1552272271184" duration="1404000" />
+      <workItem from="1552290027577" duration="1253000" />
+      <workItem from="1552339672753" duration="5041000" />
+      <workItem from="1553295570845" duration="224000" />
+      <workItem from="1553295828936" duration="1745000" />
+      <workItem from="1553361124148" duration="2406000" />
+      <workItem from="1553363866435" duration="8521000" />
+      <workItem from="1553420969976" duration="1522000" />
+      <workItem from="1553427497935" duration="95000" />
+      <workItem from="1553464161327" duration="4491000" />
+      <workItem from="1553499481434" duration="5028000" />
+      <workItem from="1553506169261" duration="5602000" />
+      <workItem from="1553530931264" duration="9117000" />
+      <workItem from="1553556893962" duration="661000" />
+      <workItem from="1553591476713" duration="3308000" />
+      <workItem from="1553932224934" duration="5607000" />
+      <workItem from="1554021660627" duration="1938000" />
+      <workItem from="1554100637451" duration="19736000" />
+      <workItem from="1554152735612" duration="9291000" />
+      <workItem from="1554195944433" duration="1412000" />
+      <workItem from="1554207528944" duration="15579000" />
+      <workItem from="1554234240219" duration="60000" />
+      <workItem from="1554274497912" duration="1119000" />
+      <workItem from="1554277503322" duration="18000" />
+      <workItem from="1554282583442" duration="249000" />
+      <workItem from="1554288853958" duration="28000" />
+      <workItem from="1554289362934" duration="197000" />
+      <workItem from="1554289622104" duration="700000" />
+      <workItem from="1554295562288" duration="821000" />
+      <workItem from="1554492694120" duration="1133000" />
+      <workItem from="1554502721702" duration="21000" />
+      <workItem from="1554505066398" duration="610000" />
+      <workItem from="1554505993322" duration="724000" />
+      <workItem from="1554641687768" duration="2724000" />
+      <workItem from="1554645331517" duration="1261000" />
+      <workItem from="1554705970622" duration="1445000" />
+      <workItem from="1554707646485" duration="8859000" />
+      <workItem from="1554734633655" duration="1814000" />
+      <workItem from="1554808076837" duration="1815000" />
+      <workItem from="1554973791785" duration="11565000" />
+      <workItem from="1555405666014" duration="6574000" />
+    </task>
+    <task id="LOCAL-00001" summary="- Interception&#10;- CRUD user&#10;- JAX-RS">
+      <created>1551094682863</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551094682863</updated>
+    </task>
+    <task id="LOCAL-00002" summary="- Interception&#10;        - CRUD user&#10;        - JAX-RS">
+      <created>1551095125023</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1551095125023</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add Services">
+      <created>1551095404713</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1551095404713</updated>
+    </task>
+    <task id="LOCAL-00004" summary="- Add unit tests for the user: CRUD&#10;- updated the domein models">
+      <created>1552011068770</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1552011068770</updated>
+    </task>
+    <task id="LOCAL-00005" summary="- Add unit tests for the user: CRUD&#10;- updated the domein models">
+      <created>1552011290320</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1552011290320</updated>
+    </task>
+    <task id="LOCAL-00006" summary="- Added controller, service and test classes.">
+      <created>1552055614489</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1552055614490</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Update">
+      <created>1553537574614</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1553537574615</updated>
+    </task>
+    <task id="LOCAL-00008" summary="JWT update">
+      <created>1554021826073</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1554021826073</updated>
+    </task>
+    <task id="LOCAL-00009" summary="JWT update">
+      <created>1554230053647</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1554230053647</updated>
+    </task>
+    <task id="LOCAL-00010" summary="2FA">
+      <created>1554707344226</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1554707344226</updated>
+    </task>
+    <task id="LOCAL-00011" summary="HATEOAS">
+      <created>1554713955249</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1554713955249</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="UserServiceTest - 2019.03.08 at 03h 09m 05s.xml">
+      <configuration name="UserServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserControllerTest - 2019.03.08 at 11h 39m 07s.xml">
+      <configuration name="UserControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserControllerTest - 2019.03.08 at 11h 56m 12s.xml">
+      <configuration name="UserControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserControllerTest - 2019.03.08 at 14h 15m 14s.xml">
+      <configuration name="UserControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserControllerTest - 2019.03.08 at 14h 15m 29s.xml">
+      <configuration name="UserControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserControllerTest - 2019.03.08 at 15h 36m 10s.xml">
+      <configuration name="UserControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CartcontrollerTest - 2019.03.09 at 02h 11m 08s.xml">
+      <configuration name="CartcontrollerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="controller_in_JavaEE-Semester-6 - 2019.03.09 at 02h 17m 31s.xml">
+      <configuration name="controller in JavaEE-Semester-6" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="controller_in_JavaEE-Semester-6 - 2019.03.09 at 02h 18m 24s.xml">
+      <configuration name="controller in JavaEE-Semester-6" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="controller_in_JavaEE-Semester-6 - 2019.03.11 at 01h 28m 12s.xml">
+      <configuration name="controller in JavaEE-Semester-6" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="294709000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.84560907" visible="true" weight="0.19530201" />
+      <window_info id="Structure" order="1" sideWeight="0.1809291" side_tool="true" weight="0.147651" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Persistence" order="3" sideWeight="0.20512821" side_tool="true" weight="0.16040269" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" sideWeight="0.17114915" side_tool="true" weight="0.147651" />
+      <window_info id="Web" order="8" sideWeight="0.15439093" side_tool="true" visible="true" weight="0.19530201" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32577905" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.590604" weight="0.37818697" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4206799" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.15722379" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3101983" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.40939596" side_tool="true" weight="0.45609066" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.5503356" weight="0.17988668" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.3286119" />
+      <window_info anchor="bottom" id="Spring" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.13624161" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="JSF" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" weight="0.3295302" />
+      <window_info anchor="right" id="CDI" order="11" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="- Interception&#10;- CRUD user&#10;- JAX-RS" />
+    <MESSAGE value="- Interception&#10;        - CRUD user&#10;        - JAX-RS" />
+    <MESSAGE value="add Services" />
+    <MESSAGE value="- Add unit tests for the user: CRUD&#10;- updated the domein models" />
+    <MESSAGE value="- Added controller, service and test classes." />
+    <MESSAGE value="Update" />
+    <MESSAGE value="JWT update" />
+    <MESSAGE value="2FA" />
+    <MESSAGE value="HATEOAS" />
+    <option name="LAST_COMMIT_MESSAGE" value="HATEOAS" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/auth0/java-jwt/3.8.0/java-jwt-3.8.0.jar!/com/auth0/jwt/interfaces/DecodedJWT.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/profile.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/DiscountCodeService.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/auth0/java-jwt/3.8.0/java-jwt-3.8.0.jar!/com/auth0/jwt/algorithms/Algorithm.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="71" column="28" selection-start-line="71" selection-start-column="28" selection-end-line="71" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repository/UserRepo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/AuthService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/JWTService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/repository/DiscountCodeRepo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Quiz.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/User.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/test/java/controller/ItemControllerTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/AuthController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/GoogleMail.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="51" lean-forward="true" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/UserService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/UserController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/Cartcontroller.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Auth/Group.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Auth/EmailValidator.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Auth/UserEJB.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Auth/AuthenticationUtils.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Link.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/7.0/javaee-api-7.0.jar!/javax/mail/Message.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/chat/MessageEncoder.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/chat/Message.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/chat/MessageDecoder.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/ChatController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Filter/AuthenticationFilter.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ApplicationConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Item.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/repository/ItemRepo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/CartrackerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gateway/StockAppGateway.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gateway/MessageSenderGateway.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gateway/MessageReceiverGateway.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="28" column="85" selection-start-line="28" selection-start-column="85" selection-end-line="28" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gateway/Gateway.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="21" column="51" lean-forward="true" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gateway/CartrackerAppGateway.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/CartrackerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gateway/IMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Cartracker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1471#1472#0" expanded="true" />
+            <element signature="e#1512#1513#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repository/CartrackerRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repository/VehicleRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/VehicleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/VehicleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Filter/CorsFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="67" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Vehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="25" column="58" lean-forward="true" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/OwnerCredentials.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Movement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>JavaEE-Semester-6:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.41322315" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.41322315" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>JavaEE-Semester-6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.41322315" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.41322315" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
